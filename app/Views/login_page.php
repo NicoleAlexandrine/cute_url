@@ -42,30 +42,6 @@
             color: black;
 
         }
-        .navbar a{
-            position: relative;
-            font-size: 16px;
-            color: #fff;
-            margin-right: 30px;
-            text-decoration: none;
-        }
-        .navbar a::after{
-            content: "";
-            position: absolute;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background: #fff;
-            bottom: -5px;
-            border-radius: 5px;
-            transform: translateY(10px);
-            opacity: 0;
-            transition: .5s ease;
-        }
-        .navbar a:hover:after{
-            transform: translateY(0);
-            opacity: 1;
-        }
         .under {
           outline: 0;
           border-width: 0 0 2px;
@@ -93,17 +69,19 @@
             color: #292f36;
         }
         .icon{
-            font-family: 'Font Awesome 5 Free';
+            font-family: 'Font Awesome 5 Free', 'Poppins';
             font-weight: 900;
             font-size: 24px;
+            color: #fffbe6;
         }
         .fa-solid {
-            color: #FD5523;
+            color: #fffbe6;
         }
         .navi{
             font-family: 'Poppins';
             font-weight: 900;
-            color: white;
+            color: #FFFBE6 !important;
+            transition: none !important;
         }
         .text1{
           font-family: 'Poppins';
@@ -123,7 +101,8 @@
 <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none icon" >
-                <i class="fa-solid fa-link"></i>
+                <i class="fa-solid fa-link">cuteurl</i>
+                </a>
                 </a>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="#" class="navi nav-link px-2 ">Home</a></li>
