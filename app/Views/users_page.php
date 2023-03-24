@@ -93,7 +93,7 @@
             color: #292f36;
         }
         .icon{
-            font-family: 'Font Awesome 5 Free','Poppins';
+            font-family: 'Font Awesome 5 Free', 'Poppins';
             font-weight: 900;
             font-size: 24px;
             color: #fffbe6;
