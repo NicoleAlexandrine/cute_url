@@ -76,6 +76,9 @@
             color: #fffbe6 !important;
             transition: none !important;
         }
+        .drop a:hover{
+            color: #37966F !important;
+        }
         .btndsgn{
           width: 150px;
           border-radius: 10px;

@@ -43,6 +43,9 @@
             color: #fffbe6 !important;
             transition: none !important;
         }
+        .drop a:hover{
+            color: #37966F !important;
+        }
         .btn{
           background-color: #FD5523 !important;
           color: white !important;
